@@ -288,7 +288,7 @@ http.createServer((req, res) => {
                 case '/sucursales':
                     res.write('           Nuestras Salas');
                     res.write('\n\n')
-                    res.write('Total de salas: ' + totalSalas.length)
+                    res.write('Total de salas: ' + theaters.length)
                     theaters.forEach(theaters => {
                         res.write('\n\n')
                         res.write("Sucursal: " + theaters.name);
